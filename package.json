@@ -1,0 +1,15 @@
+{
+  "name": "mcgl-slimes-map",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "pngjs": "^3.4.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

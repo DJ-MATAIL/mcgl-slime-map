@@ -1,0 +1,6 @@
+node_modules
+*.class
+maps/original/*
+maps/slime/*
+!maps/original/.gitkeep
+!maps/slime/.gitkeep
