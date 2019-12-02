@@ -67,7 +67,7 @@ function downloadMap() {
 
 					if (iter < iterations) {
 						const { x, y } = getCoords(i, j)
-						
+
 						setTimeout(() => build(x, y), 500)
 					}
 
@@ -177,7 +177,7 @@ function buildChunks() {
 				})
 
 				console.info(`Отрисока чанков на карте завершено: ${ (Date.now() - startTime) / 1000 } секунд`)
-				
+
 				const destPath = path.join( config.slimeMaps, `${ map }.png` )
 				const ws = fs.createWriteStream( destPath )
 
@@ -200,7 +200,7 @@ function buildChunks() {
 	let startTime = Date.now()
 
 	console.info('Скачивание карты')
-	// await downloadMap()
+	await downloadMap()
 	console.info(`Скачивание карты завершено: ${ (Date.now() - startTime) / 1000 } секунд`)
 
 	await buildChunks()
