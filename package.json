@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "minimist": "^1.2.2",
+    "minimist": "^1.2.3",
     "pngjs": "^3.4.0",
     "request": "^2.88.0"
   },
